@@ -6,6 +6,7 @@
   <title>テスト</title>
 </head>
 <body>
-  <!--  -->
+  <h1>エスケープのテスト</h1>
+  <p>改行するには<?php echo htmlspecialchars('<br>') ?>を使おう！</p>
 </body>
 </html>
